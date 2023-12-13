@@ -7,7 +7,7 @@ html {
 
 body {
     margin: 0;
-    font-size: 2rem; <-- root em(element) -->
+    font-size: 2rem;
     display: flex;
     flex: 1;
     min-height: 100vh;
@@ -22,7 +22,8 @@ body {
     margin: 50px auto;
     position: relative;
     padding: 2rem;
-    /*box-shadow: 0 0 0 4px;*/
+    box-shadow: 0 0 0 4px rgb(0,0,0,0.1), inset 0 0 0 3px #EFEFEF, inset 0 0 10px black, 0 0 10px rgba(0,0,0,0.2);
+
 
 }
 
@@ -42,5 +43,5 @@ body {
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 0.05s;
-    transition-timing-function: cubic-bezier(0, 1, 2.7, 0.58, 1);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
